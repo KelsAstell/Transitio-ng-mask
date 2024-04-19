@@ -1,0 +1,22 @@
+/* 图片模糊，鼠标悬停查看 */
+.image {
+  filter: blur(5px) contrast(105%) brightness(95%);
+  transform: rotate(-3deg);
+  width: 40% !important;
+  height: auto !important;
+  padding: 20px 20px;
+  transition: padding 0.5s ease, filter 0.5s ease, transform 0.5s ease, border 0.5s ease, width 0.3s ease;
+}
+
+.image:hover {
+  filter: blur(0);
+  width: 70% !important;
+  transform: rotate(0deg);
+  border: 3px solid rgba(255, 102, 0, 0.4);
+  padding: 0 0;
+}
+
+/* 包含图片消息背景透明 By lamprose*/
+.ml-list .message-content__wrapper .container--others:has(.message-content .image-content){
+  background-color:transparent !important;
+}
