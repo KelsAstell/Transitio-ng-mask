@@ -7,3 +7,5 @@
 > ## 已知bug:
 > 1. 开启[轻量工具箱](https://github.com/xiyuesaves/LiteLoaderQQNT-lite_tools)的头像浮动功能后，头像会出现抖动问题
 > 2. 图片显示尺寸与原生尺寸不一致
+# 我不喜欢~~酷炫的~~动画?
+我们有[没动画的版本](https://github.com/KelsAstell/Transitio-ng-mask/blob/main/ng-mask-no-anime.css)
